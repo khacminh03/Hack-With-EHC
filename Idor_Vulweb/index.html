@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang EHC</title>
+</head>
+<body>
+    <p>Đi ngắm các idol của EHC nào?</p>
+
+    <button id="clickButton">Click Me!</button>
+
+    <script>
+        // Bắt sự kiện khi người dùng bấm vào nút "Click Me!"
+        document.getElementById('clickButton').addEventListener('click', function () {
+            // Chuyển hướng đến trang có URL tương đối là idol.html?id=1
+            window.location.href = 'idol.html?id=1';
+        });
+    </script>
+</body>
+</html>
