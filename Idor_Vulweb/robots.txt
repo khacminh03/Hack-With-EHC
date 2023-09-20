@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /index.html?id=3
+
+#EHC{4nH_B4n_c0_C0nTr0l_Y0u_Kh0ng_D4Y?}
