@@ -30,7 +30,6 @@ if (id === '1') {
     nameElement.textContent = 'Dipper Pines';
     dobElement.textContent = 'Unknown';
     sloganElement.textContent = 'Thách đồng chí có được flag ấy';
-    // Của đồng chí đây EHC{4nH_B4n_c0_C0nTr0l_Y0u_Kh0ng_D4Y?}
 } else {
     profileElement.innerHTML = '<p>Không tìm thấy hồ sơ.</p>';
 }
