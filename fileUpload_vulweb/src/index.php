@@ -47,7 +47,7 @@
         <br/>
         <br/>
         <h3 class="display-4 text-center">File upload workshop</h3>
-        <h4 class="display-4 text-center">From EHC With Love 😘😘😘😘😘😘😘</h4>
+        <h4 class="display-4 text-center">From EHC With Love</h4>
         <p class="display-5 text-center">Goal: RCE me!</p>
 
         <br/>
