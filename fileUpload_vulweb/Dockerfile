@@ -1,6 +1,6 @@
 FROM php:7.3-apache
 RUN mkdir -p /var/www/html/upload && chown -R www-data:www-data /var/www/html/upload
-COPY ./ /var/www/html/
+COPY ./src /var/www/html/
 # put files
 WORKDIR /var/www/html/
 COPY ./src .
