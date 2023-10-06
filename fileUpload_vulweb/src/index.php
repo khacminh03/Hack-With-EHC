@@ -65,25 +65,4 @@
 
     </body>
 
-    <footer class="container">
-        <br/>
-        <br/>
-        <br/>
-        <button class="float-left btn btn-dark" type="button" onclick="prevLevel()">Previous level</button>
-        <button class="float-right btn btn-dark" type="button" onclick="nextLevel()">Next level</button>
-
-        <script>
-            function prevLevel() {
-                const url = new URL(origin);
-                url.port = (parseInt(url.port) - 1).toString();
-                location.href = url.toString();
-            }
-            function nextLevel() {
-                const url = new URL(origin);
-                url.port = (parseInt(url.port) + 1).toString();
-                location.href = url.toString();
-            }
-        </script>
-
-    </footer>
 </html>
